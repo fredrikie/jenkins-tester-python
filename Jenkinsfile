@@ -8,7 +8,7 @@ pipeline {
     }
     stage('message steve') {
       steps {
-        sh 'python3 steve.py'
+        sh 'python3 /scripts/sendmail.py'
       }
     }
   }
